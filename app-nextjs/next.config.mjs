@@ -4,7 +4,13 @@ const nextConfig = {
      remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'raw.githubusercontent.com',
+        hostname: 'www.keychron.com',
+        port: '',
+        pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'acdn.mitiendanube.com',
         port: '',
         pathname: '/**'
       }

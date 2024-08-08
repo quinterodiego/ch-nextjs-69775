@@ -1,5 +1,5 @@
 'use client'
-import { Boton } from "./components/ui/Boton";
+import { Button } from "./components/ui/Button";
 import { useRouter } from "next/navigation";
 
 export default function NotFound() {
@@ -9,14 +9,14 @@ export default function NotFound() {
       <main
         className="container m-auto"
       >
-        <h1 className="text-4xl text-blue-600">Página no encontrada</h1>
+        <h1 className="text-4xl text-blue-400">Página no encontrada</h1>
         <hr />
         <p className="text-base mt-4">
           La ruta a la que intentas acceder no existe.
         </p>
-        <Boton onClick={() =>  router.back()}>
+        <Button onClick={() =>  router.back()} className="py-2 px-5 mt-3">
           Volver
-        </Boton>
+        </Button>
       </main>
     </>
   )

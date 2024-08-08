@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import { Boton } from './Boton'
+import { Boton } from './Button'
 
 export const Counter = () => {
 
