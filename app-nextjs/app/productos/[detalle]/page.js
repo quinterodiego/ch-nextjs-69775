@@ -1,5 +1,5 @@
 'use client'
-import { useParams } from "next/navigation"
+import { useParams } from 'next/navigation'
 import products from '@/data/products'
 
 // export async function generateMetadata ({ params }, {parent}) {
@@ -10,11 +10,11 @@ import products from '@/data/products'
 
 const Detalle = () => {
 
-  const params = useParams()
+  const { detalle } = useParams()
 
-  console.log(params)
+  console.log(detalle)
 
-  const product = products.find(prod => prod.category === params.category)
+  const product = products.find(prod => prod.slug === detalle)
 
   return (
     <div className="bg-white">

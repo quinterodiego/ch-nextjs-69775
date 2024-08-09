@@ -1,7 +1,7 @@
 'use client'
 import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-import ProductList from './components/productos/ProductList.js';
+import ProductList from './productos/ProductList.js';
 import { useState } from 'react';
 
 const categories = [
