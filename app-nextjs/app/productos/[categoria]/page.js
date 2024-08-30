@@ -10,11 +10,9 @@ import products from '@/data/products'
 
 const Detalle = () => {
 
-  const { detalle } = useParams()
+  const { categoria } = useParams()
 
-  console.log(detalle)
-
-  const product = products.find(prod => prod.slug === detalle)
+  const product = products.find(prod => prod.slug === categoria)
 
   return (
     <div className="bg-white">
