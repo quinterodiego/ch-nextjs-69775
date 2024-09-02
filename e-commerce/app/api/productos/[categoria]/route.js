@@ -7,7 +7,7 @@ const delay = (timer) => {
 
 export async function GET(request, { params }) {
   const { categoria } = params
-  const data = categoria === 'todos' ? products : products.filter(data => data.category.toLowerCase() === categoria.toLowerCase())
+  const data = categoria.toLowerCase() === 'todos' ? products : products.filter(data => data.category.toLowerCase() === categoria.toLowerCase())
   await delay(2000)
   return NextResponse.json(data)
 }

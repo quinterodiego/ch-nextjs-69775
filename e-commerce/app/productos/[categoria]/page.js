@@ -2,12 +2,6 @@
 import { useParams } from 'next/navigation'
 import products from '@/data/products'
 
-// export async function generateMetadata ({ params }, {parent}) {
-//   return {
-//     title: `DALMI - ${params.slug}`
-//   }
-// }
-
 const Detalle = () => {
 
   const { categoria } = useParams()
