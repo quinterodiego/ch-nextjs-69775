@@ -2,10 +2,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const ProductCard = ({ item }) => {
-
+  console.log(item)
   return (
     <article className='basis-72 shadow-lg rounded'>
-      <Link href={`/productos/${item.slug}`} className='flex flex-col'>
+      <Link href={`/productos/${item.id}`} className='flex flex-col'>
         <Image 
           alt={item.title}
           src={item.url[0]}

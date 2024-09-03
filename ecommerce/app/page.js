@@ -31,8 +31,11 @@ const Home = () => {
         q = query(productRef, where('category', '==', category))
       }
       const querySnapshots = await getDocs(q)
-      const docs = querySnapshots.docs.map(doc => doc.data())
-      console.log('docs', docs)
+      const docs = querySnapshots.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+      }))
+      console.log(docs)
       setproducts(docs)
       setIsLoading(false)
     } catch (error) {
@@ -45,7 +48,6 @@ const Home = () => {
   }, [selected])
 
   const onSelectCategory = (category, index) => {
-    console.log(category, index)
     getProdyctByCategory(category)
     setSelected(category)
     setCategoryIndex(index)
