@@ -1,0 +1,206 @@
+[
+  {
+      "title": "Keychron K2 Version 2",
+      "description": "Teclado mecánico inalámbrico compacto con un diseño de 84 teclas y compatibilidad con múltiples dispositivos.",
+      "stock": 25,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-blue-with-type-C-RGB-white-backlight_7247ac65-e246-451e-b367-cd6c5b6411be.jpg?v=1650445595&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight-exclusive-color.jpg?v=1650445595&width=1000"
+      ],
+      "slug": "keychron-k2-v2",
+      "price": 79000.99,
+      "category": "Compacto"
+  },
+  {
+      "title": "Keychron K4 Version 2",
+      "description": "Teclado mecánico con 96 teclas que combina la compacidad del K2 con un teclado numérico.",
+      "stock": 20,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-K4-version2-hot-swappable-wireless-mechanical-keyboard-96percent-layout-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight_8e2ecfc8-4f2a-47db-b850-828e6d75c9c5.jpg?v=1644399874&width=1000",
+          "https://www.keychron.com/cdn/shop/products/Keychron-K4-version2-hot-swappable-wireless-mechanical-keyboard-96percent-layout-for-Mac-Windows-iOS-Gateron-switch-brown-with-type-C-RGB-white-backlight_4f495875-f4dc-4369-93a8-96f4a12d27df.jpg?v=1644399874&width=1000"
+      ],
+      "slug": "keychron-k4-v2",
+      "price": 89000.99,
+      "category": "Full-Size"
+  },
+  {
+      "title": "Keychron K6",
+      "description": "Teclado mecánico inalámbrico con un diseño de 65% que ahorra espacio, ideal para quienes buscan portabilidad.",
+      "stock": 30,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-K6-hot-swappable-compact-65-percent-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-brown-with-type-C-RGB-white-backlight-aluminum-frame.jpg?v=1621238767&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-K6-hot-swappable-compact-65-percent-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-blue-with-type-C-RGB-white-backlight-aluminum-frame.jpg?v=1621238767&width=1000"
+      ],
+      "slug": "keychron-k6",
+      "price": 74000.99,
+      "category": "Compacto"
+  },
+  {
+      "title": "Keychron K8",
+      "description": "Teclado mecánico tenkeyless con 87 teclas, diseñado para maximizar la eficiencia y la ergonomía.",
+      "stock": 18,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-K8-tenkeyless-wireless-mechanical-keyboard-for-Mac-Windows-iOS-RGB-white-backlight-with-Gateron-switch-blue.jpg?v=1622187417&width=1000",
+          "https://www.keychron.com/cdn/shop/products/K8-C1-J1-Keychron-K8-tenkeyless-wireless-mechanical-keyboard-for-Mac-Windows-iOS-RGB-white-backlight-aluminum-frame-with-Hot-swappable-Gateron-switch-red.jpg?v=1657360255&width=1000"
+      ],
+      "slug": "keychron-k8",
+      "price": 79000.99,
+      "category": "Tenkeyless"
+  },
+  {
+      "title": "Keychron K2 Pro",
+      "description": "Teclado mecánico inalámbrico con interruptores intercambiables en caliente y retroiluminación RGB.",
+      "stock": 15,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-K2-Pro-QMK-VIA-Wireless-Mechanical-Keyboard-for-Mac-Windows-PBT-keycaps-PCB-screw-in-stabilizer-hot-swappable-red-switch_7f3edd88-59f3-4516-b953-05cdc3d3bece.jpg?v=1671268326&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-K2-Pro-QMK-VIA-Wireless-Mechanical-Keyboard-for-Mac-Windows-RGB-Aluminum-frame-PBT-keycaps-PCB-screw-in-stabilizer-hot-swappable-brown-switch.jpg?v=1671268438&width=900"
+      ],
+      "slug": "keychron-k2-pro",
+      "price": 99000.99,
+      "category": "Compacto"
+  },
+  {
+      "title": "Keychron K3",
+      "description": "Teclado mecánico ultradelgado con un perfil de 75%, ideal para una experiencia de escritura ligera y rápida.",
+      "stock": 22,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-K3-ultra_slim-Hot_swappable-wireless-mechanical-keyboard-Mac-Windows-iOS-Android-75percent-layout-White-backlight-aluminum-frame-low-profile-Gateron-mechanical-switch-red.jpg?v=1699321418&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-K3-ultra_slim-Hot_swappable-wireless-mechanical-keyboard-Mac-Windows-iOS-Android-75percent-layout-White-backlight-aluminum-frame-low-profile-Gateron-mechanical-switch-blue.jpg?v=1615858798&width=900"
+      ],
+      "slug": "keychron-k3",
+      "price": 69000.99,
+      "category": "Ultradelgado"
+  },
+  {
+      "title": "Keychron C1",
+      "description": "Teclado mecánico con cable y diseño tenkeyless para usuarios que prefieren una conexión por cable.",
+      "stock": 35,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/keychron-c1-hot-swappable-wired-mechanical-keyboard-tenkeyless-layout-for-mac-windows-non-backlight-keychron-switch-red-retro-style-color.jpg?v=1645785294&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-C1-hot-swappable-wired-type-c-mechanical-keyboard-tenkeyless-layout-for-Mac-Windows-iOS-Gateron-Switch-Red.jpg?v=1650868945&width=1000"
+      ],
+      "slug": "keychron-c1",
+      "price": 49000.99,
+      "category": "Tenkeyless"
+  },
+  {
+      "title": "Keychron C2",
+      "description": "Teclado mecánico full-size con cable, diseñado para una experiencia de escritura robusta y completa.",
+      "stock": 25,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-C2-hot-swappable-wired-mechanical-keyboard-tenkeyless-layout-for-mac-windows-non-backlight-retro-color-Keychron-switch-red.jpg?v=1645785319&width=1000",
+          "https://www.keychron.com/cdn/shop/products/Keychron-C2-hot-swappable-wired-type-c-mechanical-keyboard-104-keys-full-size-layout-for-Mac-Windows-iOS-Gateron-switch-red.jpg?v=1650871268&width=1000"
+      ],
+      "slug": "keychron-c2",
+      "price": 59000.99,
+      "category": "Full-Size"
+  },
+  {
+      "title": "Keychron Q1",
+      "description": "Teclado mecánico personalizado con interruptores intercambiables en caliente y diseño tenkeyless.",
+      "stock": 12,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-Q1-QMK-VIA-custom-mechanical-keyboard-75-percent-layout-full-aluminum-blue-frame-for-Mac-Windows-iOS-RGB-backlight-with-hot-swappable-Gateron-G-Pro-switch-red.jpg?v=1657854465&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-Q1-QMK-VIA-custom-mechanical-keyboard-75-percent-layout-full-aluminum-black-frame-for-Mac-Windows-iOS-RGB-backlight-with-hot-swappable-Gateron-G-Pro-switch-red.jpg?v=1657854465&width=1000"
+      ],
+      "slug": "keychron-q1",
+      "price": 169000.99,
+      "category": "Personalizable"
+  },
+  {
+      "title": "Keychron Q2",
+      "description": "Teclado mecánico con diseño compacto de 65%, altamente personalizable y con un chasis de aluminio.",
+      "stock": 10,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-Q2-C2-QMK-VIA-custom-mechanical-keyboard-65-percent-layout-full-aluminum-black-frame-for-Mac-Windows-iOS-RGB-backlight-with-hot-swappable-Gateron-G-Pro-switch-blue.jpg?v=1659603188&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-Q2-D1-QMK-VIA-custom-mechanical-keyboard-65-percent-layout-full-aluminum-grey-frame-for-Mac-Windows-iOS-RGB-backlight-with-hot-swappable-Gateron-G-Pro-switch-red.jpg?v=1659603188&width=1000"
+      ],
+      "slug": "keychron-q2",
+      "price": 189000.99,
+      "category": "Compacto"
+  },
+  {
+      "title": "Keychron Q3",
+      "description": "Teclado mecánico de tamaño completo con construcción de alta calidad y opciones de personalización avanzadas.",
+      "stock": 8,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Q3-C1-Keychron-Q3-QMK-VIA-custom-mechanical-keyboard-tenkeyless-layout-full-aluminum-black-frame-for-Mac-Windows-iOS-with-hot-swappable-Gateron-G-Pro-switch-red.jpg?v=1659423523&width=900",
+          "https://www.keychron.com/cdn/shop/products/Q3-D1-Keychron-Q3-QMK-VIA-custom-mechanical-keyboard-tenkeyless-layout-full-aluminum-grey-frame-for-Mac-Windows-iOS-with-hot-swappable-Gateron-G-Pro-switch-red.jpg?v=1659423523&width=1000"
+      ],
+      "slug": "keychron-q3",
+      "price": 199000.99,
+      "category": "Full-Size"
+  },
+  {
+      "title": "Keychron K1",
+      "description": "Teclado mecánico ultradelgado con retroiluminación RGB y diseño de bajo perfil.",
+      "stock": 28,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/keychron-k1-v5-ultra-slim-wireless-mechanical-keyboard-87-keys-rgb-backlight-gateron-mechanical-low-profile-blue-switch.jpg?v=1638354489&width=900",
+          "https://www.keychron.com/cdn/shop/products/keychron-k1-v5-ultra-slim-wireless-mechanical-keyboard-87-keys-rgb-backlight-gateron-mechanical-low-profile-blue-switch.jpg?v=1638354489&width=900"
+      ],
+      "slug": "keychron-k1",
+      "price": 89000.99,
+      "category": "Ultradelgado"
+  },
+  {
+      "title": "Keychron K7",
+      "description": "Teclado mecánico inalámbrico de 65% con un diseño de bajo perfil, perfecto para portabilidad.",
+      "stock": 20,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-K7-65-percent-ultra-slim-compact-wireless-mechanical-keyboard-for-Mac-Windows-Hot-swappable-low-profile-Gateron-Mechanical-red-switches-for-Mac-Windows-with-white-backlit.jpg?v=1638418315&width=1000",
+          "https://www.keychron.com/cdn/shop/products/Keychron-K7-65-percent-ultra-slim-compact-wireless-mechanical-keyboard-for-Mac-Windows-Hot-swappable-low-profile-Optical-blue-switches-for-Mac-Windows-with-white-backlit.jpg?v=1638418410&width=1000"
+      ],
+      "slug": "keychron-k7",
+      "price": 84000.99,
+      "category": "Compacto"
+  },
+  {
+      "title": "Keychron K10",
+      "description": "Teclado mecánico full-size con retroiluminación RGB y conectividad inalámbrica.",
+      "stock": 18,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/keychron-k10--full-size-wired-wireless-mechanical-keyboard-white-rgb-backlight-gateron-red-switches-mac-windows-layout.jpg?v=1631097814&width=900",
+          "https://www.keychron.com/cdn/shop/products/keychron-k10--full-size-wired-wireless-mechanical-keyboard-white-rgb-backlight-aluminum-frame-hot-swappable-gateron-blue-switches-mac-windows-layout.jpg?v=1631097813&width=1000"
+      ],
+      "slug": "keychron-k10",
+      "price": 99000.99,
+      "category": "Full-Size"
+  },
+  {
+      "title": "Keychron V1",
+      "description": "Teclado mecánico customizable con interruptores intercambiables y diseño minimalista.",
+      "stock": 14,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-V1-Custom-Mechanical-Keyboard-frosted-black-K-Pro-brown.jpg?v=1657878904&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-V1-Custom-Mechanical-Keyboard-frosted-black-knob-K-Pro-blue.jpg?v=1657878904&width=1000"
+      ],
+      "slug": "keychron-v1",
+      "price": 149000.99,
+      "category": "Personalizable"
+  },
+  {
+      "title": "Keychron V2",
+      "description": "Teclado mecánico con diseño 65%, altamente personalizable con opciones de retroiluminación RGB.",
+      "stock": 13,
+      "url": [
+          "https://acdn.mitiendanube.com/stores/001/652/371/products/keychron-v2-max-qmk-wireless-custom-mechanical-keyboard-65-percent-layout-fully-assembled-knob-for-mac-windows-linux-gateron-jupiter-brown-9443f93358fa91825617214156646164-1024-1024.webp",
+          "https://acdn.mitiendanube.com/stores/001/652/371/products/v2-1939-87428f1436696f45ae17214154200879-480-0.webp"
+      ],
+      "slug": "keychron-v2",
+      "price": 159000.99,
+      "category": "Compacto"
+  },
+  {
+      "title": "Keychron V3",
+      "description": "Teclado mecánico con diseño TKL, altamente configurable y con construcción robusta.",
+      "stock": 11,
+      "url": [
+          "https://www.keychron.com/cdn/shop/products/Keychron-V3-Custom-Mechanical-Keyboard-knob-frosted-black-QMK-VIA-tenkeyless-hot-swappable-Keychron-K-Pro-switch-red-V3-C1_90e5f2bb-4b01-4506-b2c1-bbf875a75249.jpg?v=1664265536&width=900",
+          "https://www.keychron.com/cdn/shop/products/Keychron-V3-Custom-Mechanical-Keyboard-black-QMK-VIA-tenkeyless-hot-swappable-Keychron-K-Pro-switch-blue-V3-B2_e3b4afc7-8da4-4b19-b616-6faa8fb80d8a.jpg?v=1664265536&width=1000"
+      ],
+      "slug": "keychron-v3",
+      "price": 169000.99,
+      "category": "Tenkeyless"
+  }
+]
