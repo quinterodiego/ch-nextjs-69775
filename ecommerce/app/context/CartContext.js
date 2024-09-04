@@ -14,6 +14,7 @@ export const CartProvider = ({ children }) => {
   const addToCart = (item) => {
     console.log('add item', item)
     setCart([...cart, item])
+    console.log('cart', cart)
     setProductsQuantity(productsQuantity + 1)
   }
 
