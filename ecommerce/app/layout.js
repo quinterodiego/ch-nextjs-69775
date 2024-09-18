@@ -1,5 +1,6 @@
 import { Footer } from './components/ui/Footer';
 import { Navbar } from './components/ui/Navbar';
+import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
 import './globals.css'
 
@@ -12,13 +13,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-        <CartProvider>
-          <div className='flex flex-col min-h-screen'>
-            <Navbar />
-            {children}
-            <Footer />
-          </div>
-        </CartProvider>
+        <AuthProvider>
+          <CartProvider>
+            <div className='flex flex-col min-h-screen'>
+              <Navbar />
+              {children}
+              <Footer />
+            </div>
+          </CartProvider>
+        </AuthProvider>
       </body>
     </html>
   );

@@ -28,6 +28,7 @@ const Detalle = () => {
     const fetchProducts = async () => {
       setLoading(true)
       const data = await getProductDetail(id)
+      console.log('data', data)
       setProduct(data)
       setLoading(false)
     }
