@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import { IoPersonOutline, IoPerson } from "react-icons/io5";
-import { RiLockPasswordFill } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
 import { useAuthContext } from "@/app/context/AuthContext";
 
@@ -26,62 +24,55 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-10 flex justify-center items-center backdrop-blur-xl px-3">
+    <div className="fixed w-screen h-screen inset-0 z-10 flex justify-center items-center bg-blue-400 bg-opacity-25">
       <form
         onSubmit={handleSubmit}
-        className="bg-blue-900 py-4 px-6 rounded-xl max-w-md w-full space-y-4"
+        className="bg-white py-4 px-6 rounded-xl max-w-md w-full"
       >
-        <div className="flex justify-center items-center ">
-          <IoPersonOutline className="text-9xl text-white border-2 rounded-full border-white p-4" />
-        </div>
-
+        <h2>Login</h2>
         <div className="flex space-x-2 items-center">
-          <IoPerson className="text-3xl text-white" />
           <input
             type="email"
             value={values.email}
             required
             placeholder="Email"
-            className="p-2 rounded-e-lg w-full block"
+            className="p-2 rounded w-full border border-blue-100 block my-4"
             name="email"
             onChange={handleChange}
           />
         </div>
 
         <div className="flex space-x-2 items-center">
-          <RiLockPasswordFill className="text-3xl text-white" />
           <input
             type="password"
             value={values.password}
             required
             placeholder="Password"
-            className="p-2 rounded-e-lg w-full block"
+            className="p-2 rounded w-full border border-blue-100 block my-4"
             name="password"
             onChange={handleChange}
           />
         </div>
 
         <div className="flex flex-col space-y-3">
-          <div className="flex justify-between">
-            <button
-              className="bg-white py-3 px-6 sm:px-10 text-blue-900 rounded-full"
-              onClick={() => loginUser(values)}
-            >
-              Login
-            </button>
-            <button
-              className="flex items-center bg-white py-3 px-6 text-blue-900 rounded-full"
-              onClick={() => googleLogin()}
-            >
-              <FcGoogle className="text-3xl" />
-              Login con Google
-            </button>
-          </div>
           <button
-            className="bg-white py-3 px-6  text-blue-900 rounded-full"
+            className="bg-green-300 text-white px-10 py-4 rounded-md hover:opacity-75"
             onClick={() => registerUser(values)}
           >
             Registrar
+          </button>
+          <button
+            className="bg-blue-400 text-white px-10 py-4 rounded-md hover:opacity-75"
+            onClick={() => loginUser(values)}
+          >
+            Login
+          </button>
+          <button
+            className="flex justify-center items-center bg-white py-4 px-10 text-gray-700 rounded-md hover:opacity-75 border"
+            onClick={() => googleLogin()}
+          >
+            <FcGoogle className="text-3xl" />
+            Login con Google
           </button>
         </div>
       </form>

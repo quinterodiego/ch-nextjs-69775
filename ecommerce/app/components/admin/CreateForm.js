@@ -1,35 +1,34 @@
 "use client";
 import { useState } from "react";
 import { doc, setDoc } from "firebase/firestore";
+import { db, storage } from "@/app/config/firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { v4 as uuidv4 } from "uuid";
 import Swal from "sweetalert2";
-import { db, storage } from "@/app/config/firebase";
 
-// const createProduct = async (values) => {
-//   const id = uuidv4();
-//   const price = parseFloat(values.price);
-//   const inStock = parseInt(values.inStock);
+const createProduct = async (values) => {
+  const id = uuidv4();
+  const price = parseFloat(values.price);
+  const stock = parseInt(values.stock);
 
-//   const docRef = doc(db, "products", id.toString());
+  const docRef = doc(db, "products", id.toString());
 
-//   return setDoc(docRef, {
-//     ...values,
-//     id,
-//     price,
-//     inStock,
-//     image: values.image,
-//   }).then(() =>
-//     Swal.fire({
-//       position: "center",
-//       icon: "success",
-//       iconColor: "#457b9d",
-//       title: "Product created!",
-//       showConfirmButton: false,
-//       timer: 1500,
-//     })
-//   );
-// };
+  return setDoc(docRef, {
+    ...values,
+    id,
+    price,
+    stock
+  }).then(() =>
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      iconColor: "#457b9d",
+      title: "Product created!",
+      showConfirmButton: false,
+      timer: 1500,
+    })
+  );
+};
 
 const CreateForm = () => {
   const [values, setValues] = useState({
@@ -45,15 +44,12 @@ const CreateForm = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
-  // const handleImageChange = async (e) => {
-  //   const storageRef = ref(storage, uuidv4());
-
-  //   const fileSnapshot = await uploadBytes(storageRef, e.target.files[0]);
-
-  //   const fileURL = await getDownloadURL(fileSnapshot.ref);
-
-  //   setValues({ ...values, image: fileURL });
-  // };
+  const handleImageChange = async (e) => {
+    const storageRef = ref(storage, uuidv4());
+    const fileSnapshot = await uploadBytes(storageRef, e.target.files[0]);
+    const fileURL = await getDownloadURL(fileSnapshot.ref);
+    setValues({ ...values, url: fileURL });
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -68,9 +64,9 @@ const CreateForm = () => {
     //     showConfirmButton: false,
     //   });
     // } else {
-    //   createProduct(values);
+      console.log(values)
+    await createProduct(values);
     // }
-    console.log(values)
   };
   return (
     <div className="my-16 p-8 mx-3 sm:mx-20 lg:mx-40 xl:mx-52 2xl:mx-96 select-none bg-white rounded">
@@ -102,7 +98,7 @@ const CreateForm = () => {
           required
           className="p-2 rounded w-full border border-cyan block mb-4"
           name="image"
-          // onChange={handleImageChange}
+          onChange={handleImageChange}
         />
 
         <label className="text-black">Categoría: </label>
