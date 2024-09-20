@@ -6,14 +6,17 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from "@/app/config/firebase";
 
 
-const getAllProducts = async () => {
-  const productRef = collection(db, 'products');
-  const querySnapshot = await getDocs(productRef);
-  return querySnapshot.docs.map(docSnapshot => docSnapshot.data());
-}
+// const getAllProducts = async () => {
+//   const productRef = collection(db, 'products');
+//   const querySnapshot = await getDocs(productRef);
+//   return querySnapshot.docs.map(docSnapshot => docSnapshot.data());
+// }
 
 const ProductsTable = async () => {
-  const items = await getAllProducts();
+  // const items = await getAllProducts();
+  const items = await fetch(`http://localhost:3000/api/productos/`, {
+    cache: 'no-store'
+  }).then(r => r.json())
 
   return (
     <div className="overflow-x-auto">
@@ -31,8 +34,8 @@ const ProductsTable = async () => {
           Órdenes
         </Link>
       </div>
-      <table className="w-full mt-5 rounded-md bg-white text-xs lg:text-sm text-left text-gray ">
-        <thead className="text-base text-gray uppercase ">
+      <table className="w-full mt-5 text-xs text-left text-gray-600">
+        <thead className="text-xs text-gray-700 uppercase ">
           <tr>
             <th scope="col" className="px-3 py-2">
               Nombre
@@ -77,7 +80,7 @@ const ProductsTable = async () => {
                   />
                 ) : (
                   <>
-                    <p className="text-gray">no image </p>
+                    <p className="text-gray">No image </p>
                   </>
                 )}
               </td>
