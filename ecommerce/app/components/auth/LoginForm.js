@@ -24,7 +24,7 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="fixed w-screen h-screen inset-0 z-10 flex justify-center items-center bg-blue-400 bg-opacity-25">
+    <div className="fixed w-screen h-screen inset-0 z-10 flex justify-center items-center bg-gray-900 bg-opacity-75">
       <form
         onSubmit={handleSubmit}
         className="bg-white py-4 px-6 rounded-xl max-w-md w-full"

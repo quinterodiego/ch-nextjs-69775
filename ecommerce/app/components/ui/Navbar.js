@@ -4,10 +4,13 @@ import React from 'react'
 import { Menu } from './Menu'
 import Link from 'next/link'
 import { useCartContext } from '@/app/context/CartContext'
+import LogoutButton from '../admin/LogoutButton'
+import { useAuthContext } from '@/app/context/AuthContext'
 
 export const Navbar = () => {
 
   const { cart } = useCartContext()
+  const { user } = useAuthContext()
 
   return (
     <div className='w-full bg-gray-500'>
@@ -34,6 +37,10 @@ export const Navbar = () => {
             </div>
           </Link>
         </div>
+
+        {
+          user.logged && <LogoutButton />
+        }
 
         <Menu />
       </div>      

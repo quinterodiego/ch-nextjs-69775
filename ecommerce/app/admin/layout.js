@@ -1,18 +1,17 @@
 'use client'
 
 import { useAuthContext } from "../context/AuthContext"
-
-import React from 'react'
+import LoginPage from "./login/page"
 
 const AdminLayout = ({ children, login }) => {
 
   const { user } = useAuthContext()
-
+  console.log('user', user)
   return (
     <>
-    {
-      user.logged ? children : login
-    }
+      {
+        user.logged ? children : <LoginPage />
+      }
     </>
   )
 }
