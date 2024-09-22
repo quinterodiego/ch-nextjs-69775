@@ -65,14 +65,14 @@ const LoginForm = () => {
             className="bg-blue-400 text-white px-10 py-4 rounded-md hover:opacity-75"
             onClick={() => loginUser(values)}
           >
-            Login
+            Ingresar
           </button>
           <button
             className="flex justify-center items-center bg-white py-4 px-10 text-gray-700 rounded-md hover:opacity-75 border"
             onClick={() => googleLogin()}
           >
-            <FcGoogle className="text-3xl" />
-            Login con Google
+            <FcGoogle className="text-3xl mr-2" />
+            Ingresar con Google
           </button>
         </div>
       </form>
