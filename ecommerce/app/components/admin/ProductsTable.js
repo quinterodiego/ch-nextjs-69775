@@ -14,7 +14,7 @@ import { db } from "@/app/config/firebase";
 
 const ProductsTable = async () => {
   // const items = await getAllProducts();
-  const items = await fetch(`http://localhost:3000/api/productos/`, {
+  const items = await fetch(`http://${process.env.VERCEL_URL}/api/productos/`, {
     cache: 'no-store'
   }).then(r => r.json())
 
